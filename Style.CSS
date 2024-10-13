@@ -1,0 +1,904 @@
+/* #cSpell:disable */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Inicio Fondo */
+.body{
+    background-color: #ffffff;
+    margin: 0;
+}
+/* Fin Fondo */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+
+nav{
+    display: flex;
+    min-height: 80px;
+    background-color: #2f0d78;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    
+}   
+
+/* Carrusel de Imagenes */
+
+    .slider_container{
+        width: 1200px;
+        height: auto;
+        margin: 10px auto 0;
+        overflow: hidden;
+        border-radius: 20px;        
+    }
+
+    .slider_container ul{
+        border-radius: 20px;
+    }
+
+    .slider_container ul {
+        list-style: none;
+        display: flex;
+        width: 100%;
+
+        animation: movimiento_slider 20s infinite alternate ease-in-out;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .slider_container ul li img{
+        border-radius: 20px;
+        overflow: hidden;
+        width: 1200px;
+        object-fit: cover;
+
+    }
+
+    @keyframes movimiento_slider{
+        0%, 10% {transform: translateX(0%);}
+        20%, 30% {transform: translateX(-100%);}
+        40%, 50% {transform: translateX(-200%);}
+        60%, 70% {transform: translateX(-300%);}
+        80%, 90% {transform: translateX(-400%);}
+        100% {transform: translateX(-400%);}
+    }
+
+/* Fin del Carrusel del Imagenes */
+
+.img-fondo{
+    /* buscar como cuadrar una img */
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Text */
+
+h6{
+    justify-content: center;
+    font-weight: 600;
+    padding-left: 550px;
+    text-decoration-line: underline;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    color: rgb(117, 117, 117);
+}
+
+.supertext{
+    font-size: 30px;
+}
+
+
+.titulo-game-1{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 490px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-1:hover{
+    color:  #6f2928;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Game-Monkey{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #6f2928;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.Game-zombie{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #066c25;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-2{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 50px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    
+}
+
+.titulo-game-2:hover{
+    color: #066c25;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Star-Wars{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #274d61;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-3{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 500px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-3:hover{
+    color: #274d61;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.titulo-game-4{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 568px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-4:hover{
+    color: #a98546;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Elden-Ring{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #a98546;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-5{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 577px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-5:hover{
+    color: #2133af;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Astro-Bot{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #2133af;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-6{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 450px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-6:hover{
+    color: #ed0000;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Red-Dead{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #ed0000;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.Hogwarts{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #3e5571;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-7{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 510px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+
+.titulo-game-7:hover{
+    color: #3e5571;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Ragnarok{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #4483c0;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-8{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 470px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+
+.titulo-game-8:hover{
+    color: #4483c0;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.titulo-game-9{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 260px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-9:hover{
+    color: #0d3678;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Warhammer{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #0d3678;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.GTA{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #c3b376;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-10{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 500px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-10:hover{
+    color: #c3b376;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.Fortnite{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #c25830;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo-game-11{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 600px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-11:hover{
+    color: #c25830;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.titulo-game-12{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 540px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-12:hover{
+    color: #ffa200;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+.cook{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #ffa200;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+
+.DEAD{
+    display: flex;
+    border-radius: 50px;
+    border: 15px double #070d0b;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    height: auto;
+}
+.titulo-game-13{
+    justify-content: center;
+    font-weight: bolder;
+    padding-left: 500px;
+    text-decoration-line: underline;
+    text-decoration: dashed;
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+.titulo-game-13:hover{
+    color: #070d0b;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+}
+
+
+.video{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.text-Games{
+    padding: 10px;
+    height: 500px;
+    width: 840px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 150px;
+    line-height: 1.6;
+}
+
+.text-Games h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-Games h3:hover{
+    color:  #2f0d78;
+    text-shadow: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 50px;
+    
+}
+
+/*---------------*/
+/* Pie de Pagina */
+/*---------------*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #888888;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    }
+    
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    text-shadow: 0px 4px 12px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    font-size: 33px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 80px;
+    height: 60px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #635757;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #2f0d78;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #292929;
+    padding: 15px 10px;
+    text-align: center;
+    color: #b8b8b8;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 20px;
+}
+
+.derechos-de-autor{
+    font-size: 16px;
+}
+
+.Nombre-icono{
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.name-icon{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.h1{
+    font-family: "lato", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1000px;
+    
+}
+
+p{
+    margin-top: 200px;
+    font-family: "lato", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: bolder;
+}
+
+.Megatitulo{
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.Megatitulo:hover{
+    color: #2f0d78;
+    text-shadow: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*🎉🎉 COMENTARIO 🎉🎉 Arreglar imagen de inicio para que se vea en todos los dispositivos */
+/*-------------------------------------------------------------------------------------------*/
+
+.header{  
+    position: relative;
+    text-align: center;
+    /* background: linear-gradient(60deg, rgb(87, 34, 200)0%,  rgb(119, 0, 255)100%); */
+    background-image: url('../IMG/Img/IMG-TEXT.png');
+    /* background-repeat: no-repeat; */
+    color: hsla(258, 87%, 58%, 0);
+    background-size: cover;
+}
+
+.inner-header{
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    /* flexbox for container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+}
+
+.content{
+    position: relative;
+    height: 60vh;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+}
+
+/* Let's start making animation*/
+
+.parallax> use{
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+
+
+.parallax>use:nth-child(1){
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3){
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4){
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever{
+    0%{
+        transform: translate3d(-90px, 0, 0);
+    }
+    100%{
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+.Logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Logo:hover{
+    color: #f671ff;
+    text-shadow: 50px;
+}
+
+.Logito{
+    height: 80px;
+    margin-right: 22px;
+}
+
+
+.h2.nombre-empresa{
+    text-decoration: underline;
+}
+
+.h2.nombre-empresa:hover{
+    color: rgb(246, 113, 255);
+    text-shadow: 50px;
+}
+
+
+.Compras, .Notificaciones, .Perfil{
+    height: 40px;
+}
+
+.Cerrar{
+    height: 25px;
+}
+
+.menu{
+    margin: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: bold;
+    
+}
+
+.menu li a:hover{
+    color: #f671ff;
+    text-shadow: 10px white;
+}
+
+  /* ---------------------------- */
+ /* Decoración de iniciar sesión */
+/* ---------------------------- */
+
+
+
+
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+/* Menu hamburguesa */
+.bars__menu{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    display: none; /* Oculto en pantallas grandes */
+}
+
+.bars__menu span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+}
+
+.activeline1__bars-menu{
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activeline2__bars-menu{
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3__bars-menu{
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+/* Mostrar el menú hamburguesa en pantallas pequeñas */
+@media (max-width: 768px){
+    .bars__menu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu.menu__active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #7d48f8;
+        width: 100%;
+        padding: 20px;
+        
+    }
+
+    .menu li{
+        margin: 10px 0;
+        text-align: right;
+    }
+}
+
+/* Mostrar el menú hamburguesa en pantallas mediana */
+
+@media (max-width: 1019px){
+    .bars__menu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .menu.menu__active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #7d48f8;
+        width: 100%;
+        padding: 20px;
+        
+    }
+
+    .menu li{
+        margin: 10px 0;
+        text-align: right;
+    }
+}
